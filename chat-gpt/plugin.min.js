@@ -1,7 +1,7 @@
 /*!
  * Add-on for including TextareaAI into your TinyMCE
- * Developer: TextareaAI
- * Website: https://textarea.ai/
+ * Developer: Txt42
+ * Website: https://txt42.ai/
  * License: GPL v3
  */
 
@@ -11,7 +11,7 @@
 //   1. Copy the plugin as "tinymce/plugins/chat-gpt/plugin.js"
 //   2. Add "chat-gpt" into "plugins" config option
 //   3. See configuration samples on our GitHub page:
-//      https://github.com/edsdk/textareaai-tinymce
+//      https://github.com/edsdk/txt42-tinymce
 //
 
 var apiKey;
@@ -69,7 +69,7 @@ function getCookie(name) {
 
 
 window.TINYMCE_OVERRIDE_API_KEY_PARAM = "OVERRIDE_API_KEY";
-apiKey = getCookie("N1ED_APIKEY") || apiKey || window.OVERRIDE_API_KEY || "TXAIDFLT";
+apiKey = getCookie("N1ED_APIKEY") || apiKey || window.OVERRIDE_API_KEY || "TXAIAUTO";
 n1edHttps = !(getCookie("N1ED_HTTPS") === "false" || n1edHttps === false);
 n1edPrefix = getCookie("N1ED_PREFIX") || n1edPrefix || null;
 n1edHttpsApp = !(getCookie("N1ED_HTTPS_APP") === "false" || n1edHttpsApp === false);
