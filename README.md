@@ -16,14 +16,14 @@
 
 ## Intro
 
-This is a **ChatGPT plugin for CKEditor 4**. It can help to generate texts with AI and publish it on your website.
+This is a **ChatGPT plugin for TinyMCE**. It can help to generate texts with AI and publish it on your website.
 
 If you have already installed and use [N1ED](https://n1ed.com) plugin, please do not install this one: ChatGPT is included into N1ED. Use this Txt42 ChatGPT add-on when you need just a GPT features only.
 
 ### Main features:
 
 - Seamless integration with TinyMCE
-- Easy installation as CKEditor plugin
+- Easy installation as TinyMCE plugin
 - All the power of GPT-4 in your TinyMCE
 - Press a toolbar button or Ctrl+Enter everywhere to generate a text! With selection or not, it is very smart.
 
